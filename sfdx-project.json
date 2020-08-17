@@ -5,6 +5,10 @@
       "default": false
     },
     {
+      "path": "es-base-objects",
+      "default": false
+    },
+    {
       "path": "es-base-styles",
       "default": false
     },
