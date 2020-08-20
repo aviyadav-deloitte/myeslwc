@@ -9,6 +9,10 @@
             <componentName>customerList</componentName>
         </componentInstances>
         <componentInstances>
+            <componentInstanceProperties>
+                <name>sobject</name>
+                <value>Contact</value>
+            </componentInstanceProperties>
             <componentName>customerList</componentName>
         </componentInstances>
         <name>column1</name>
