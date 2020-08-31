@@ -6,6 +6,11 @@
     <aura:attribute name="sobjectType" type="String" />
     <aura:attribute name="state" type="String" />
     <aura:attribute name="tabId" type="String" />
+
+    <c:reservationHelper
+        aura:id="reservHelperLWC"
+        oncustomerchoice="{!c.handleSelect}"
+    ></c:reservationHelper>
     
     <lightning:card iconName="custom:custom18" title="Reservation Helper">
         <aura:if isTrue="{!v.recordId}">
