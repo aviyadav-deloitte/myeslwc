@@ -19,7 +19,6 @@
                 <elementReference>varReservationId</elementReference>
             </value>
         </inputParameters>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
     <constants>
         <name>Contact</name>
@@ -269,7 +268,7 @@
             <inputParameters>
                 <name>state</name>
                 <value>
-                    <elementReference>varStartDate</elementReference>
+                    <elementReference>varState</elementReference>
                 </value>
             </inputParameters>
             <isRequired>true</isRequired>
